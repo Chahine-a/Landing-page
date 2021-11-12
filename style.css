@@ -1,0 +1,150 @@
+body{ 
+    margin: 0;    }
+.headhero{
+    background-color: #1f2937;
+}
+.header{
+
+    display: flex;
+    background-color: #1f2937;
+    
+    
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+    margin: 10px 300px;
+}
+
+.links{
+    margin: 10px 300px;
+    display: flex;
+    margin-left:auto;
+    gap: 15px;
+    align-self: center;
+}
+.links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+#mt {
+    font-size: 48px;
+    font-weight: bold;
+    color:#f9faf8;
+}
+#sect {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#btn {
+    color:#e5e7eb ;
+    background-color: #3882f6;
+    border-radius: 4px;
+    border:none;
+    font-size: 16px;
+    width:100px;
+    padding: 6px;
+}
+#btn2 {
+    color:#e5e7eb ;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;  
+    border-radius: 6px; 
+    font-size: 16px;
+    width:100px;
+    padding: 6px;
+    margin-left: auto;
+    align-self: center;
+}
+.hero{
+    margin: 150px 300px 24px;
+    display: flex;
+    background-color: #1f2937;
+    padding-bottom: 70px;
+}
+img {
+    width:400px;
+    height: auto;
+    
+}
+.heroImg{
+    margin-left: auto;
+    justify-self: center;
+}
+.heroText{
+    width: 400px;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+
+}
+#text{
+    text-align :center;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+}
+.whitesec{
+    display:felx;
+    flex-direction: column;
+}
+.images img{
+    width :200px;
+    height:200px;
+    border: none;
+    border-radius: 4px;
+}
+.whitesec{
+    margin: 50px 300px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.imgtext{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+#author{
+    text-align: right;
+    font-weight: bold;
+}
+.CTO{
+    display: flex;
+    margin-top: 150px;
+    background-color:#3882f6;
+    padding: 25px 100px;
+    border: none;
+    border-radius: 6px;
+
+}
+.CTOt{
+    color:#f9faf8;
+}
+h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 0px;
+}
